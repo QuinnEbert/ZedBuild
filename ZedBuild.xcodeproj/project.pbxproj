@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E405FDD4165EDCDB0094CF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD3165EDCDB0094CF07 /* UIKit.framework */; };
+		E405FDD6165EDCDB0094CF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD5165EDCDB0094CF07 /* Foundation.framework */; };
+		E405FDD8165EDCDB0094CF07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD7165EDCDB0094CF07 /* CoreGraphics.framework */; };
+		E405FDDA165EDCDB0094CF07 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD9165EDCDB0094CF07 /* GLKit.framework */; };
+		E405FDDC165EDCDB0094CF07 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDDB165EDCDB0094CF07 /* OpenGLES.framework */; };
+		E405FDE2165EDCDB0094CF07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E405FDE0165EDCDB0094CF07 /* InfoPlist.strings */; };
+		E405FDE4165EDCDB0094CF07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E405FDE3165EDCDB0094CF07 /* main.m */; };
+		E405FDE8165EDCDB0094CF07 /* ZedBuildAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E405FDE7165EDCDB0094CF07 /* ZedBuildAppDelegate.m */; };
+		E405FDEA165EDCDB0094CF07 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E405FDE9165EDCDB0094CF07 /* Default.png */; };
+		E405FDEC165EDCDB0094CF07 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E405FDEB165EDCDB0094CF07 /* Default@2x.png */; };
+		E405FDEE165EDCDB0094CF07 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E405FDED165EDCDB0094CF07 /* Default-568h@2x.png */; };
+		E405FDF1165EDCDB0094CF07 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E405FDEF165EDCDB0094CF07 /* MainStoryboard_iPhone.storyboard */; };
+		E405FDF4165EDCDB0094CF07 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E405FDF2165EDCDB0094CF07 /* MainStoryboard_iPad.storyboard */; };
+		E405FDF6165EDCDB0094CF07 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E405FDF5165EDCDB0094CF07 /* Shader.fsh */; };
+		E405FDF8165EDCDB0094CF07 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E405FDF7165EDCDB0094CF07 /* Shader.vsh */; };
+		E405FDFB165EDCDB0094CF07 /* ZedBuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E405FDFA165EDCDB0094CF07 /* ZedBuildViewController.m */; };
+		E405FE03165EDCDC0094CF07 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FE02165EDCDC0094CF07 /* SenTestingKit.framework */; };
+		E405FE04165EDCDC0094CF07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD3165EDCDB0094CF07 /* UIKit.framework */; };
+		E405FE05165EDCDC0094CF07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E405FDD5165EDCDB0094CF07 /* Foundation.framework */; };
+		E405FE0D165EDCDC0094CF07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E405FE0B165EDCDC0094CF07 /* InfoPlist.strings */; };
+		E405FE10165EDCDC0094CF07 /* ZedBuildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E405FE0F165EDCDC0094CF07 /* ZedBuildTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E405FE06165EDCDC0094CF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E405FDC6165EDCDB0094CF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E405FDCE165EDCDB0094CF07;
+			remoteInfo = ZedBuild;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E405FDCF165EDCDB0094CF07 /* ZedBuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZedBuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405FDD3165EDCDB0094CF07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E405FDD5165EDCDB0094CF07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E405FDD7165EDCDB0094CF07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E405FDD9165EDCDB0094CF07 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		E405FDDB165EDCDB0094CF07 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E405FDDF165EDCDB0094CF07 /* ZedBuild-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZedBuild-Info.plist"; sourceTree = "<group>"; };
+		E405FDE1165EDCDB0094CF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E405FDE3165EDCDB0094CF07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E405FDE5165EDCDB0094CF07 /* ZedBuild-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZedBuild-Prefix.pch"; sourceTree = "<group>"; };
+		E405FDE6165EDCDB0094CF07 /* ZedBuildAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZedBuildAppDelegate.h; sourceTree = "<group>"; };
+		E405FDE7165EDCDB0094CF07 /* ZedBuildAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZedBuildAppDelegate.m; sourceTree = "<group>"; };
+		E405FDE9165EDCDB0094CF07 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E405FDEB165EDCDB0094CF07 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E405FDED165EDCDB0094CF07 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E405FDF0165EDCDB0094CF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E405FDF3165EDCDB0094CF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E405FDF5165EDCDB0094CF07 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		E405FDF7165EDCDB0094CF07 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		E405FDF9165EDCDB0094CF07 /* ZedBuildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZedBuildViewController.h; sourceTree = "<group>"; };
+		E405FDFA165EDCDB0094CF07 /* ZedBuildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZedBuildViewController.m; sourceTree = "<group>"; };
+		E405FE01165EDCDC0094CF07 /* ZedBuildTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZedBuildTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E405FE02165EDCDC0094CF07 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E405FE0A165EDCDC0094CF07 /* ZedBuildTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZedBuildTests-Info.plist"; sourceTree = "<group>"; };
+		E405FE0C165EDCDC0094CF07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E405FE0E165EDCDC0094CF07 /* ZedBuildTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZedBuildTests.h; sourceTree = "<group>"; };
+		E405FE0F165EDCDC0094CF07 /* ZedBuildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZedBuildTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E405FDCC165EDCDB0094CF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FDD4165EDCDB0094CF07 /* UIKit.framework in Frameworks */,
+				E405FDD6165EDCDB0094CF07 /* Foundation.framework in Frameworks */,
+				E405FDD8165EDCDB0094CF07 /* CoreGraphics.framework in Frameworks */,
+				E405FDDA165EDCDB0094CF07 /* GLKit.framework in Frameworks */,
+				E405FDDC165EDCDB0094CF07 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405FDFD165EDCDC0094CF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FE03165EDCDC0094CF07 /* SenTestingKit.framework in Frameworks */,
+				E405FE04165EDCDC0094CF07 /* UIKit.framework in Frameworks */,
+				E405FE05165EDCDC0094CF07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E405FDC4165EDCDB0094CF07 = {
+			isa = PBXGroup;
+			children = (
+				E405FDDD165EDCDB0094CF07 /* ZedBuild */,
+				E405FE08165EDCDC0094CF07 /* ZedBuildTests */,
+				E405FDD2165EDCDB0094CF07 /* Frameworks */,
+				E405FDD0165EDCDB0094CF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E405FDD0165EDCDB0094CF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E405FDCF165EDCDB0094CF07 /* ZedBuild.app */,
+				E405FE01165EDCDC0094CF07 /* ZedBuildTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E405FDD2165EDCDB0094CF07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E405FDD3165EDCDB0094CF07 /* UIKit.framework */,
+				E405FDD5165EDCDB0094CF07 /* Foundation.framework */,
+				E405FDD7165EDCDB0094CF07 /* CoreGraphics.framework */,
+				E405FDD9165EDCDB0094CF07 /* GLKit.framework */,
+				E405FDDB165EDCDB0094CF07 /* OpenGLES.framework */,
+				E405FE02165EDCDC0094CF07 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E405FDDD165EDCDB0094CF07 /* ZedBuild */ = {
+			isa = PBXGroup;
+			children = (
+				E405FDE6165EDCDB0094CF07 /* ZedBuildAppDelegate.h */,
+				E405FDE7165EDCDB0094CF07 /* ZedBuildAppDelegate.m */,
+				E405FDEF165EDCDB0094CF07 /* MainStoryboard_iPhone.storyboard */,
+				E405FDF2165EDCDB0094CF07 /* MainStoryboard_iPad.storyboard */,
+				E405FDF5165EDCDB0094CF07 /* Shader.fsh */,
+				E405FDF7165EDCDB0094CF07 /* Shader.vsh */,
+				E405FDF9165EDCDB0094CF07 /* ZedBuildViewController.h */,
+				E405FDFA165EDCDB0094CF07 /* ZedBuildViewController.m */,
+				E405FDDE165EDCDB0094CF07 /* Supporting Files */,
+			);
+			path = ZedBuild;
+			sourceTree = "<group>";
+		};
+		E405FDDE165EDCDB0094CF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E405FDDF165EDCDB0094CF07 /* ZedBuild-Info.plist */,
+				E405FDE0165EDCDB0094CF07 /* InfoPlist.strings */,
+				E405FDE3165EDCDB0094CF07 /* main.m */,
+				E405FDE5165EDCDB0094CF07 /* ZedBuild-Prefix.pch */,
+				E405FDE9165EDCDB0094CF07 /* Default.png */,
+				E405FDEB165EDCDB0094CF07 /* Default@2x.png */,
+				E405FDED165EDCDB0094CF07 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E405FE08165EDCDC0094CF07 /* ZedBuildTests */ = {
+			isa = PBXGroup;
+			children = (
+				E405FE0E165EDCDC0094CF07 /* ZedBuildTests.h */,
+				E405FE0F165EDCDC0094CF07 /* ZedBuildTests.m */,
+				E405FE09165EDCDC0094CF07 /* Supporting Files */,
+			);
+			path = ZedBuildTests;
+			sourceTree = "<group>";
+		};
+		E405FE09165EDCDC0094CF07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E405FE0A165EDCDC0094CF07 /* ZedBuildTests-Info.plist */,
+				E405FE0B165EDCDC0094CF07 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E405FDCE165EDCDB0094CF07 /* ZedBuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405FE13165EDCDC0094CF07 /* Build configuration list for PBXNativeTarget "ZedBuild" */;
+			buildPhases = (
+				E405FDCB165EDCDB0094CF07 /* Sources */,
+				E405FDCC165EDCDB0094CF07 /* Frameworks */,
+				E405FDCD165EDCDB0094CF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZedBuild;
+			productName = ZedBuild;
+			productReference = E405FDCF165EDCDB0094CF07 /* ZedBuild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E405FE00165EDCDC0094CF07 /* ZedBuildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E405FE16165EDCDC0094CF07 /* Build configuration list for PBXNativeTarget "ZedBuildTests" */;
+			buildPhases = (
+				E405FDFC165EDCDC0094CF07 /* Sources */,
+				E405FDFD165EDCDC0094CF07 /* Frameworks */,
+				E405FDFE165EDCDC0094CF07 /* Resources */,
+				E405FDFF165EDCDC0094CF07 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E405FE07165EDCDC0094CF07 /* PBXTargetDependency */,
+			);
+			name = ZedBuildTests;
+			productName = ZedBuildTests;
+			productReference = E405FE01165EDCDC0094CF07 /* ZedBuildTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E405FDC6165EDCDB0094CF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZedBuild;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Zed Tiger (Quinn Ebert)";
+			};
+			buildConfigurationList = E405FDC9165EDCDB0094CF07 /* Build configuration list for PBXProject "ZedBuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E405FDC4165EDCDB0094CF07;
+			productRefGroup = E405FDD0165EDCDB0094CF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E405FDCE165EDCDB0094CF07 /* ZedBuild */,
+				E405FE00165EDCDC0094CF07 /* ZedBuildTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E405FDCD165EDCDB0094CF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FDE2165EDCDB0094CF07 /* InfoPlist.strings in Resources */,
+				E405FDEA165EDCDB0094CF07 /* Default.png in Resources */,
+				E405FDEC165EDCDB0094CF07 /* Default@2x.png in Resources */,
+				E405FDEE165EDCDB0094CF07 /* Default-568h@2x.png in Resources */,
+				E405FDF1165EDCDB0094CF07 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E405FDF4165EDCDB0094CF07 /* MainStoryboard_iPad.storyboard in Resources */,
+				E405FDF6165EDCDB0094CF07 /* Shader.fsh in Resources */,
+				E405FDF8165EDCDB0094CF07 /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405FDFE165EDCDC0094CF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FE0D165EDCDC0094CF07 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E405FDFF165EDCDC0094CF07 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E405FDCB165EDCDB0094CF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FDE4165EDCDB0094CF07 /* main.m in Sources */,
+				E405FDE8165EDCDB0094CF07 /* ZedBuildAppDelegate.m in Sources */,
+				E405FDFB165EDCDB0094CF07 /* ZedBuildViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E405FDFC165EDCDC0094CF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E405FE10165EDCDC0094CF07 /* ZedBuildTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E405FE07165EDCDC0094CF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E405FDCE165EDCDB0094CF07 /* ZedBuild */;
+			targetProxy = E405FE06165EDCDC0094CF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E405FDE0165EDCDB0094CF07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405FDE1165EDCDB0094CF07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E405FDEF165EDCDB0094CF07 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405FDF0165EDCDB0094CF07 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E405FDF2165EDCDB0094CF07 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405FDF3165EDCDB0094CF07 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E405FE0B165EDCDC0094CF07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E405FE0C165EDCDC0094CF07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E405FE11165EDCDC0094CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E405FE12165EDCDC0094CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E405FE14165EDCDC0094CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZedBuild/ZedBuild-Prefix.pch";
+				INFOPLIST_FILE = "ZedBuild/ZedBuild-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E405FE15165EDCDC0094CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZedBuild/ZedBuild-Prefix.pch";
+				INFOPLIST_FILE = "ZedBuild/ZedBuild-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E405FE17165EDCDC0094CF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZedBuild.app/ZedBuild";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZedBuild/ZedBuild-Prefix.pch";
+				INFOPLIST_FILE = "ZedBuildTests/ZedBuildTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E405FE18165EDCDC0094CF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZedBuild.app/ZedBuild";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZedBuild/ZedBuild-Prefix.pch";
+				INFOPLIST_FILE = "ZedBuildTests/ZedBuildTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E405FDC9165EDCDB0094CF07 /* Build configuration list for PBXProject "ZedBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405FE11165EDCDC0094CF07 /* Debug */,
+				E405FE12165EDCDC0094CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E405FE13165EDCDC0094CF07 /* Build configuration list for PBXNativeTarget "ZedBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405FE14165EDCDC0094CF07 /* Debug */,
+				E405FE15165EDCDC0094CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E405FE16165EDCDC0094CF07 /* Build configuration list for PBXNativeTarget "ZedBuildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E405FE17165EDCDC0094CF07 /* Debug */,
+				E405FE18165EDCDC0094CF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E405FDC6165EDCDB0094CF07 /* Project object */;
+}
